@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: simple-app
-        image: simple-app:v14
+        image: humokobil/otus:01
         ports:
           - name: web 
             containerPort: 8000
